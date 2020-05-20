@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS: Selecting by class</title>
+        <style>
+        body {background-color:rgb(0, 122, 2);font-size:18px;}
+       
+        h1  {color:rgb(3, 252, 235);font-size:50px;text-align: center;}
+        h2 {color:rgb(255, 230, 0);font-size:30px;}
+        .tekst {background-color:rgb(207, 2, 40);} 
+        .tabs {color:rgb(4, 0, 255);font-size:25px;text-align: center;background-color:rgb(0, 255, 119);}
+        .tabele {text-align: center;background-color:rgb(190, 146, 252);}
+         .center {display: block;margin-left: auto;margin-right: auto;}
+            .lista{font-size:20px;}
+        #jd {color:rgb(245, 132, 3);font-size:25px;}
+        #st {color:rgb(111, 255, 79);font-size:30px;}
+        </style>
+    </head>
+    <body>
+
+    <h1>Bulterier</h1>
+   <img src "https://upload.wikimedia.org/wikipedia/commons/e/ec/Bull_Terrier_R_02.jpg">
+        <h2 id="st">Spis treści:</h2>
+       
+        
+        <ol class="lista">
+            <li><a href="#jj">Informacje</a></li>
+            <li><a href="#area">Historia</a></li>
+            <li><a href="#food">Cechy</a></li>
+            
+        
+        </ol>
+    
+    <h2 id="jj">Informacje</h2>
+    
+    <p class="tekst"> Rasa psa, należąca do grupy terierów, zaklasyfikowana do terierów w typie bull. Typ wilkowaty. Nie podlega próbom pracy.</p>
+     
+    <h2 id="area">Historia</h2>
+    
+<p class="tekst">Pierwsze opisy psów walczących, podobnych do bulteriera spotykane są w literaturze dużo wcześniej, zanim nazwany ojcem rasy James Hinks przyprowadził je w roku 1862 na wystawę. Taplin (cytowany u Backmana) w 1803 roku pisze o terierach krzyżowanych z buldogiem wśród niższych warstw społecznych, których używano do polowań. Z roku 1808 pochodzi obraz Jamesa Warda przedstawiający bulteriera maści czarno podpalanej z białymi znaczeniami. Według Edwarda C. Asha były już w roku 1819 białe psy nazwane bulterierami paddington, ważyły około 30 kilogramów. Głowy miały podobne do boksera.
+
+Około roku 1830 studenci z Oksfordu (Freeborns) wyhodowali białe bulteriery, a w roku 1842 Sir Richard Burton zabrał takiego psa do Indii, gdzie rasa ta stała się jedną z najbardziej lubianych przez kolonistów.
+
+
+Bulterier z 1915 roku
+James Hinks – hodowca zwierząt – około 1850 roku zaczął krzyżować bulteriery ze staroangielskimi białymi terierami. Wspomina się także o chartach angielskich (greyhoundach) i dalmatyńczykach. Swój udział w powstaniu rasy miał także z pewnością pointer, bedlington terrier i staffordshire bulterrier. Hinks dążył do uzyskania idealnego psa bojowego: walecznego, zwinnego, odznaczającego się atrakcyjnym wyglądem. Dopuszczał tylko białe umaszczenie u bulteriera. Zakaz mieszania białych bulterierów z kolorowymi zniesiono ostatecznie dopiero w 1950 roku.
+
+W roku 1895 na życzenie ówczesnego księcia Walii, późniejszego króla Edwarda VII, wprowadzono w Wielkiej Brytanii zakaz kopiowania uszu u bulterierów. W ciągu czterech lat miłośnicy rasy zdołali jednak wyhodować bulteriery z naturalnie stojącymi uszami. Dziewiętnastowieczne bulteriery nie miały także charakterystycznego profilu czaszki: jednym z pierwszych psów tej rasy, u których dało się go zaobserwować, był urodzony w roku 1917 Lord Gladiator.
+
+Pierwsze wzmianki na temat bulterierów w Polsce pochodzą ze Lwowa z okresu międzywojennego. Niestety brak jakichkolwiek dokumentów na ten temat. Po drugiej wojnie światowej kilka egzemplarzy pojawiło się w ambasadzie brytyjskiej w Warszawie.</p>
+    
+  <h2 id="food">Cechy</h2>
+    
+   <table>
+            <tbody>
+                <tr>
+<td colspan="2" style="background-color:#D3D3A4; text-align:center; border: 1px solid #aaa; font-weight:bold;">Systematyka
+</td></tr>
+<tr class="tabs">
+<td>Budowa</td>
+<td>Psy o mocnej budowie, muskularne, proporcjonalne.</td></tr>
+<tr class="tabs">
+<td >Głowa
+</td>
+<td> Głowa powinna być długa, mocna i masywna po koniuszek kufy, ale nie toporna.
+</td></tr>
+<tr class="tabs">
+<td >Uszy
+</td>
+<td>Małe, cienkie, ustawione pionowo, osadzone wysoko i wąsko.
+</td></tr>
+<tr class="tabs">
+<td >Oczy
+</td>
+<td>Małe, trójkątne, skośnie położone, jak najciemniejsze, o przenikliwym spojrzeniu.
+</td></tr>
+<tr class="tabs">
+<td >Nos
+</td>
+<td>Czarny, opadający, skierowany w dół.
+</td></tr>
+<tr class="tabs">
+<td>Kończyny
+</td>
+<td>Proporcjonalnej długości i grubości, proste, muskularne, ustawione równolegle.
+</td></tr>
+<tr class="tabs">
+<td>Ogon
+</td>
+<td>Krótki, nisko osadzony, noszony w poziomie, zwężający się od nasady ku końcowi.
+</td></tr>
+<tr class="tabs">
+<td>Szata
+</td>
+<td>Włos krótki, przylegający, jednolitej struktury, lśniący, twardy w dotyku.
+</td></tr>
+                </tbody></table>
+<p id="jd">Żródło:</p>
+    <ul><li><a href="https://pl.wikipedia.org/wiki/Bulterier>Wikipedia"</a></li>
+    
+        
+    </ul>
+    
+    
+    </body>
+</html>
